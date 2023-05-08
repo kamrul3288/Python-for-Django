@@ -8,3 +8,17 @@ aliens = [alien_0, alien_1, alien_2]
 
 for alien in aliens:
     print(alien)
+
+
+# Emoji Converter Example
+message = input("> ")
+words = message.split(" ")
+emoji = {
+    ":D" : "🙂",
+    ":)" : "😄",
+    "(:" : "😞"
+}
+output = ""
+for word in words:
+    output += emoji.get(word, word) + " "
+print(output)
