@@ -10,6 +10,7 @@ module.greeting()
 # PIP is a package manager for Python packages, or modules if you like.
 # https://pypi.org/project/pip/
 # Run your project directory terminal pip install --upgrade pip
+# pip3 install calculator_102
 
 calculator = Calculator()
 print(calculator.value)
