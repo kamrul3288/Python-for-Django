@@ -10,6 +10,7 @@ greet.greeting()
 
 
 class Robot:
+    #create constructor
     def __init__(self, name: str, color: str, weight: int):
         self.name = name
         self.color = color
@@ -31,7 +32,7 @@ r1.introduce_self()
 r2 = Robot(name="Bumblebee", color="Yellow", weight=500)
 r2.introduce_self()
 
-
+# Inheritance
 class Transformer(Robot):
     value = 10
 
